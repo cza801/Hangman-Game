@@ -14,7 +14,20 @@ document.onkeyup = function(start){
     var counter;
     var lives;
 
- 
+// i think this belones in a function. But I was able to get this to work for now. 
+    if (rand = 'toyota') {
+    	document.getElementById('unguessed').innerHTML = '-';
+    } else if (rand = 'honda') {
+    	document.getElementById('unguessed').innerHTML = '-----';
+    } else if (rand = 'ford') {
+    	document.getElementById('unguessed').innerHTML = '----';
+    } else if (rand = 'volkswagen') {
+    	document.getElementById('unguessed').innerHTML = '---------';
+    } else if (rand = 'subaru') {
+    	document.getElementById('unguessed').innerHTML = '------';
+    }
+ 	
+ 	// document.getElementById('guesses')onkeypress =
     
-	 document.getElementById('unguessed').innerHTML = rand;
+	 // document.getElementById('unguessed').innerHTML = rand;
 }
